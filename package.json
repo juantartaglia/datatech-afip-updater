@@ -1,0 +1,15 @@
+{
+  "name": "datatech-update-clinst-afip",
+  "version": "1.0.0",
+  "description": "Update SQL Database Datatech CLINST Field GEM en Base a listado AFIP en pdf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Manuel Tartaglia",
+  "license": "MIT",
+  "dependencies": {
+    "mssql": "^5.1.0",
+    "pdf-table-extractor": "^1.0.3"
+  }
+}

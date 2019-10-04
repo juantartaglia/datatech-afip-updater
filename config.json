@@ -1,0 +1,31 @@
+{
+    "sqlServer" : {
+        "user": "sql user",
+        "password": "sql password",
+        "server": "sql server host",
+        "database": "database",
+        "connectionTimeout": 30000,
+        "requestTimeout": 300000,
+        "pool":{
+          "idleTimeoutMillis": 30000,
+          "max": 100
+        },  
+        "options": {
+          "encrypt": false,
+          "tdsVersion": "7_1"
+        }  
+    },
+    "mailServer": {
+        "host": "your host",
+        "port": 465,
+        "secure": true, 
+        "auth": {
+        "user": "user",
+        "pass": "password" 
+        }
+    },
+    "accounts": {
+        "to": "address destination",
+        "from": "sender address"
+    }
+}
